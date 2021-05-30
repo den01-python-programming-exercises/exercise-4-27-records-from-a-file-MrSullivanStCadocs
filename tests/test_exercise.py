@@ -5,7 +5,7 @@ import os
 def test_exercise():
     os.chdir('src')
     
-    input_values = ["data.txt"]
+    input_values = ["data.csv"]
     output = []
 
     def mock_input(s=None):
